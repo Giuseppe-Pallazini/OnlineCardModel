@@ -1,0 +1,57 @@
+.background {
+    background-image: url('./images/background-Tools-Header.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 185px;
+
+    .client-information {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+
+        margin-top: 5.5em;
+        /* position: relative;
+        top: 5.5em; */
+    
+        .client-photo {
+            width: 200px;
+            height: auto;
+        }
+    }
+
+    .client-information h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+
+        margin: 12px 0 0 0;
+    }
+
+    .client-information p {
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+    }
+}
+
+.types-profission {
+    display: flex;
+    flex-direction: column;
+}
+
+.types-profission .col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.types-profission .col span {
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+.types-profission .col p {
+    margin: 0   ;
+}

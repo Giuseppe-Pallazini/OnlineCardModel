@@ -1,0 +1,200 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 425px;
+}
+
+a:link,
+a:active,
+a:visited {
+    text-decoration: none;
+    color: #272727;
+    font-family: 'Inter-light';
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: #272727;
+
+
+    .background {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url('./images/background-Tools-Header.png');
+        background-repeat: no-repeat;
+        width: 100%;
+
+        .img-background {
+            height: 185px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+
+        .img-circle {
+            margin: 5.5em 0 0 0;
+        }
+    }
+
+    .name-profission {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name-profission h1 {
+        font-family: 'inter-bold';
+        letter-spacing: 4.5%;
+        font-size: 20px;
+    }
+
+    .name-profission p {
+        font-family: 'inter-regular';
+        letter-spacing: 4.5%;
+        font-size: 12px;
+    }
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'inter-bold';
+    color: #272727;
+    width: 80%;
+    margin: 30px 0 0 0;
+
+    .div-sec2 {
+        display: flex;
+        flex-direction: column;
+
+        .information {
+            display: flex;
+            flex-direction: row;
+            margin: .7em 0 0 0;
+        }
+
+        .information img {
+            margin: 0 10px 0 0;
+        }
+    }
+
+
+}
+
+.sec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 90%;
+    font-size: 8px;
+
+    margin: 35px 0 0 0;
+
+    .icons-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        .facebook-icon-div,
+        .insta-icon-div,
+        .email-icon-div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #EFEFEF;
+            border-radius: 100%;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            margin: 0 0 6px 0;
+        }
+
+        .facebook-icon-div img {
+            padding: 17px 32px;
+        }
+
+        .email-icon-div img {
+            padding: 24px;
+        }
+
+        .insta-icon-div img {
+            padding: 21.5px 24.5px;
+        }
+
+
+    }
+
+    .icons-1 div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        font-family: 'inter-light';
+    }
+
+
+    .icons-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'inter-light';
+
+        margin: 35px 0 -4.4em 0;
+
+        .whatsapp-icon-link {
+            background-color: #EFEFEF;
+            border-radius: 100%;
+        }
+        .whatsapp-icon-link img {
+            padding: 24px;
+        }
+    }
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-image: url('./images/BackgroundToolsFooterSVG.svg');
+    width: 425px;
+    height: 157px;
+
+    .back {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-image: url('./images/backgroundCliqueNoIcone.svg');
+        background-repeat: no-repeat;
+        width: 121px;
+        height: 91.5px;
+    }
+
+    .back img {
+        width: 22px;
+        height: 20px;
+        margin: 0 0 0 27px;
+    }
+
+    .back p {
+        font-family: 'inter-light';
+        font-size: 12px;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        margin: 0 0 5px 0;
+    }
+}
